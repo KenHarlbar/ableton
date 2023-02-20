@@ -1,0 +1,17 @@
+.vid {
+    width: 60vw;
+    margin: 0 auto;
+}
+
+.vid2 {
+    width: 80vw;
+}
+
+.vid img {
+    width: 100%;
+}
+
+.vid figcaption {
+    font-size: 10px;
+    font-weight: 900;
+}

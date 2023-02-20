@@ -1,0 +1,17 @@
+.hero {
+    background-image: url("https://ableton-production.imgix.net/about/header.jpg?fit=crop&auto=format&fm=jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-header h1 {
+    font-size: 70px;
+    color: #fd4913;
+}

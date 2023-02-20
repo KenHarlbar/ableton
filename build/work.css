@@ -1,0 +1,24 @@
+.work {
+    width: 60vw;
+    height: 40vh;
+    margin: 0 auto;
+    display: flex;
+    background-color: #b1c5ff;
+    margin-bottom: 60px;
+}
+
+.work img {
+    width: 50%;
+    height: 100%;
+}
+
+.work .work-content {
+    width: 50%;
+    max-height: 100%;
+    font-weight: 600;
+    margin: auto 10px;
+}
+
+.work-content p {
+    margin-bottom: 20px;
+}

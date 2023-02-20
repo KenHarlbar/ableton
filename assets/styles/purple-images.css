@@ -1,0 +1,31 @@
+.purple-images {
+    width: auto;
+    height: 150vh;
+    position: relative;
+}
+
+.purple-images .images {
+    width: 65vw;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #d5b3ff;
+}
+
+.purple-images .images img {
+    position: absolute;
+}
+
+.purple-images .images img:first-child {
+    width: 35%;
+    height: 35%;
+    left: 8%;
+}
+
+.purple-images .images img:last-child {
+    width: 40%;
+    height: 70%;
+    right: 0;
+}

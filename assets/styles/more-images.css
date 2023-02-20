@@ -1,0 +1,49 @@
+.more-images {
+    width: auto;
+    height: 150vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.more-images img {
+    display: block;
+    position: absolute;
+}
+
+.more-images .image1 {
+    background-color: #b6ffc0;
+    width: 60%;
+    height: inherit;
+    margin-right: auto;
+    position: relative;
+}
+
+.more-images .image1 img {
+    left: 12%;
+    width: 57%;
+    height: 35%;
+}
+
+.more-images .image1 img:first-child {
+    top: 10%;
+}
+
+.more-images .image1 img:last-child {
+    top: 55%;
+}
+
+
+
+.more-images .image2 {
+    position: relative;
+    width: 40%;
+    height: inherit;
+}
+
+.more-images .image2 img {
+    width: 100%;
+    height: 60%;
+    top: 20%;
+    right: 20%;
+}

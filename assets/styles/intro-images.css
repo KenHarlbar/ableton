@@ -1,0 +1,43 @@
+.intro-images {
+    height: 150vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-images img {
+    width: 100px;
+    height: 100px;
+}
+
+.intro-images .image2 {
+    width: 60%;
+    height: inherit;
+    margin-left: auto;
+    background-color: #fbffa7;
+    position: relative;
+}
+
+.intro-images .image2 img {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    width: 50%;
+    height: 40%;
+}
+
+.intro-images .image1 {
+    width: 40%;
+    height: inherit;
+    position: relative;
+}
+
+.intro-images .image1 img {
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    z-index: 1;
+}

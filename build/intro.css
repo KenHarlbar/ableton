@@ -1,0 +1,22 @@
+.intro {
+    width: 60vw;
+    margin: 60px auto;
+}
+
+.intro h3 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.intro h3 span {
+    color: #0000ff;
+}
+
+.intro p {
+    font-size: 11px;
+}
+
+.intro p:last-child {
+    margin-top: 15px;
+}

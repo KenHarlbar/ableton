@@ -1,0 +1,70 @@
+.footer {
+    margin: 60px 0;
+    padding: 0 80px;
+}
+
+.footer h1 {
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.footer .first,
+.footer .second {
+    display: flex;
+}
+
+.footer a,
+.footer h4,
+.footer p,
+.footer select {
+    margin-top: 5px;
+}
+
+.footer form {
+    margin-bottom: 60px;
+    margin-top: 10px;
+    background-color: #0000ff;
+    width: 90%;
+    border: none;
+}
+
+.footer .first form input {
+    width: 70%;
+    border: none;
+    background-color: #e9e9e9;
+    padding: 5px;
+    color: #000;
+}
+
+.footer .first form button {
+    padding: 5px 5px 5px 15px;
+    border: none;
+    width: 20%;
+    background-color: #0000ff;
+    color: #fbfbfb;
+}
+
+.footer .first form input::after,
+.footer .first form button::before {
+    margin: 0;
+}
+
+.footer .first form input::placeholder {
+    color: #848484;
+}
+
+.footer a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+
+.footer section {
+    flex: 1;
+}
+
+.footer .first .social-links a {
+    display: inline-block;
+    margin-right: 10px;
+}

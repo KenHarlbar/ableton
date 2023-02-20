@@ -1,0 +1,14 @@
+.bottom-header {
+    padding: 10px;
+}
+
+.bottom-header .links a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #000;
+}
+
+.bottom-header .links a:active,
+.bottom-header .links a:hover {
+    color: #fd4913;
+}

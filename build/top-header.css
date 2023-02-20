@@ -1,0 +1,35 @@
+.top-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #b1c5ff;
+}
+
+.logo {
+    margin-right: 15px;
+}
+
+.logo h1 {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.secondary {
+    margin-left: auto;
+}
+
+.primary a, .secondary a {
+    padding: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    color: #000;
+}
+
+.secondary a {
+    font-size: 10px;
+}
+
+.secondary a:first-child {
+    color: #0000ff;
+    font-size: 100%;
+}
